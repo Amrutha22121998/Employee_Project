@@ -1,0 +1,8 @@
+com\data\Data.class
+com\Servlets\Delete.class
+com\Servlets\MainServlet.class
+com\Servlets\Create.class
+com\dbconnection\JDBC.class
+com\Servlets\Display.class
+com\Servlets\Update.class
+com\data\ContextListener.class

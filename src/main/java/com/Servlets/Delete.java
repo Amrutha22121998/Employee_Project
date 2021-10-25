@@ -6,6 +6,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -15,9 +16,11 @@ import org.json.JSONObject;
 
 import com.data.Data;
 import com.dbconnection.JDBC;
-
-
+/**
+ * Servlet implementation class create
+ */
 @SuppressWarnings("serial")
+@WebServlet("/Delete")
 public class Delete extends MainServlet {
 
 	public Delete() {
